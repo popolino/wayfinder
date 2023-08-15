@@ -33,6 +33,10 @@ html, body {
 input, button, textarea {
   font-family: inherit;
 }
+input{
+  background: transparent;
+
+}
 
 input::-ms-clear {
   display: none;
