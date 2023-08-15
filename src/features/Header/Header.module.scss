@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  background: var(--main);
+  position: fixed;
+    display: flex;
+  justify-content: space-around;
+  padding: 0.4rem 5rem;
+  z-index: 10;
+  align-items: center;
+  right: -5rem;
+}
+.logo {
+  & > img {
+    width: 4rem;
+  }
+  color: white;
+}
+.main-container,
+.right-container {
+  display: flex;
+  gap: 2rem;
+align-items: center;
+  & > a {
+    font-size: 1rem;
+    color: white;
+  }
+}
+
+.right-container{
+  & > button{
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+  }
+}

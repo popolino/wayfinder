@@ -1,0 +1,7 @@
+.container{
+  background: var(--main);
+padding: 10rem 20rem;
+  & > p{
+    color: white;
+  }
+}
