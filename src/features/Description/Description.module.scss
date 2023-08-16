@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 50rem;
+  margin: auto;
+  padding: 0 2rem;
+  margin-bottom: 10rem;
+  & > h2 {
+    font-size: calc(2vw + 2.5vh);
+    font-weight: 700;
+    text-align: center;
+  }
+  & > p {
+    line-height: 2rem;
+    text-align: center;
+    font-size: calc(0.5vw + 2vh);
+  }
+}

@@ -7,6 +7,7 @@ import Parallax from "./features/Parallax/Parallax";
 import Main from "./features/Main/Main";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import Description from "./features/Description/Description";
 
 function App() {
   gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -23,10 +24,14 @@ function App() {
   return (
     <>
       <Header />
+
       <div className="wrapper">
         <div className="content">
           <Parallax />
-          <div className="gradient"></div>
+          <div className="gradient" />
+
+          <Description />
+
           <Main />
         </div>
       </div>

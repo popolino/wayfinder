@@ -1,7 +1,12 @@
 .container{
-  background: var(--main);
-padding: 10rem 20rem;
-  & > p{
-    color: white;
-  }
+position: relative!important;
+}
+.search {
+  position: absolute;
+  z-index: 1000;
+  width: 100px;
+  height: 100px;
+  background: red;
+  top: 0;
+  left: 0;
 }

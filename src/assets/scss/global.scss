@@ -1,5 +1,24 @@
+@import url("~leaflet/dist/leaflet.css");
+
 :root{
-  --main: #030912;
+  --main: #040a13;
   --transition-main: rgba(189, 189, 189, 0.2);
   --placeholder-white: #dcdcdc;
+  --transition-gray: rgba(189, 189, 189, 0.3);
+  --search-dark: #040a1391
+
+}
+.leaflet-container {
+  height: calc(100vh - 3rem);
+  width: 100%;
+  display: flex;
+}
+.zoom-slider {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.leaflet-touch .leaflet-bar{
+  background: black;
 }
