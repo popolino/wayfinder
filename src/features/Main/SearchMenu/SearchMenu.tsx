@@ -16,7 +16,6 @@ const Search: React.FC<SearchProps> = ({ provider }) => {
     const searchControl = new GeoSearchControl({
       provider,
     });
-
     map.addControl(searchControl);
     return () => map.removeControl(searchControl);
   }, [provider, map]);
@@ -27,8 +26,9 @@ const Search: React.FC<SearchProps> = ({ provider }) => {
 const SearchMenu: React.FC<SearchProps> = ({ provider }) => {
   return (
     <div className={classes.container}>
-      <div className={classes.search}>dsvdxs</div>
-      {/*<Search provider={provider} />*/}
+      {/*<div className={classes.search}>*/}
+      <Search provider={provider} />
+      {/*</div>*/}
     </div>
   );
 };

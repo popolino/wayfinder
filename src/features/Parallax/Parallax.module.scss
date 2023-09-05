@@ -13,6 +13,7 @@
   transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
   will-change: transform;
   z-index: 2;
+  pointer-events: none;
 }
 
 .container::after {

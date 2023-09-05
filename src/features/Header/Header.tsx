@@ -9,8 +9,8 @@ const Header: React.FC = () => {
         <img src={logo} alt="" />
       </div>
       <div className={classes["main-container"]}>
+        <a href="">To Main</a>
         <a href="">Services</a>
-        <a href="">GPS</a>
         <a href="">About Us</a>
       </div>
       <div className={classes["right-container"]}>
