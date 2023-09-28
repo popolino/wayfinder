@@ -13,6 +13,7 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@types/react-leaflet": "^3.0.0",
+    "antd": "^5.9.0",
     "clsx": "^2.0.0",
     "gsap": "^3.12.2",
     "leaflet": "^1.9.4",
