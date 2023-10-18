@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wayfinder/static/css/main.b35557ad.css",
+    "main.js": "/wayfinder/static/js/main.25672777.js",
+    "static/js/787.a4dace7c.chunk.js": "/wayfinder/static/js/787.a4dace7c.chunk.js",
+    "static/media/Space.png": "/wayfinder/static/media/Space.d9bcc9867bc358606522.png",
+    "static/media/Planet.png": "/wayfinder/static/media/Planet.f0847aa8bd57855af0c4.png",
+    "static/media/gr.png": "/wayfinder/static/media/gr.3180686d8f112a0ce489.png",
+    "index.html": "/wayfinder/index.html",
+    "main.b35557ad.css.map": "/wayfinder/static/css/main.b35557ad.css.map",
+    "main.25672777.js.map": "/wayfinder/static/js/main.25672777.js.map",
+    "787.a4dace7c.chunk.js.map": "/wayfinder/static/js/787.a4dace7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35557ad.css",
+    "static/js/main.25672777.js"
+  ]
+}
